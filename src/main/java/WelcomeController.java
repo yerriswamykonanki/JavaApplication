@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class WelcomeController {
  
 	private static final String VIEW_INDEX = "index";
+	private static final String VIEW_INDEX2 = "index123";
+	private static final String VIEW_INDEX3 = "index1234";
 	private final static Logger logger = LoggerFactory.getLogger(WelcomeController.class);
  
 	@RequestMapping(value = "/", method = RequestMethod.GET)
