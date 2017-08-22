@@ -22,7 +22,8 @@ public class WelcomeController {
 		model.addAttribute("message", "");
 		logger.debug("[welcome]");
  
-		return VIEW_INDEX;
+		return VIEW_INDEX
+		//return VIEW_INDEX;
  
 	}
  
